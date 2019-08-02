@@ -1,0 +1,45 @@
+header {
+  height: 100px;
+  background: white;
+  
+}
+
+#header-logo {
+  float: left;
+  margin-top: 25px;
+
+}
+
+main {
+  width: 960px;
+  margin-bottom: 30px auto;
+  margin: 0px auto;
+}
+
+header span {
+  margin-top: 15px;
+  position: absolute;
+  line-height: 1px;
+
+}
+
+#header-title {
+  font-family: cursive;
+  font-size: 25px;
+  font-weight: bold;
+  
+}
+#header-subtitle {
+  font-size: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+  width: 960px;
+  margin: 0px auto; 
+}
+
+header li {
+  float: right;
+  list-style: none;
+}
