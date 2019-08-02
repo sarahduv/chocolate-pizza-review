@@ -43,3 +43,113 @@ header li {
   float: right;
   list-style: none;
 }
+
+
+#heading{
+  display: grid;
+  width: 960px;
+  height: 100px;
+  grid-template-columns: repeat(12, 80px);
+  grid-template-rows: repeat(2, 20px);
+  grid-row-gap: 5px;
+  grid-column-gap: 5px;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 5px;
+  grid-column: 1 / span 8;
+  grid-row: 1 / span 1;
+}
+
+#posted {
+  font-size: 10px;
+  padding-top: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:#444;
+  line-height: 5px;
+  grid-column: 1 / span 3;
+  grid-row: 2 / span 1;
+}
+
+#print {
+  float: right;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:#444;
+  line-height: 5px;
+  font-size: 10px;
+  grid-column: 11 / span 1;
+  grid-row: 2 / span 1;
+}
+#print-img {
+  line-height: 5px;
+  grid-column: 11 / span 1;
+  grid-row: 2 / span 1;
+}
+
+
+.notepad {
+  position: relative;
+
+}
+
+#list-one {
+  position: absolute;
+  top: 58px;
+  left: 150px;
+  
+}
+
+#list-two {
+  position: absolute;
+  top: 58px;
+  right: 150px;
+}
+
+.vanessa {
+  display: grid;
+  width: 960px;
+  height: 100px;
+  grid-template-columns: repeat(12, 80px);
+  grid-template-rows: repeat(2, 20px);
+  grid-row-gap: 5px;
+  grid-column-gap: 5px;
+}
+button {
+  /* padding: 12px 25px; */
+  background: chocolate;
+  font-size: 20px;
+  transition: 350ms;
+  grid-column: 9 / span 2;
+  grid-row: 1 / span 2;
+}
+button:hover {
+  background: rgb(253, 244, 159);
+}
+
+#vaness-img {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+}
+
+
+#vanessa-name {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  grid-column: 2 / span 3;
+  grid-row: 1 / span 1;  
+}
+
+#vanessa-blurb {
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  grid-column: 2 / span 6;
+  grid-row: 2 / span 1;
+}
+
+
+footer {
+  text-align: center;
+}
